@@ -1,3 +1,4 @@
 # demo_git
 Une demo de git
-Ajouté des informations
+Ajout n°1 d'informations
+Ajout n°2 d'informations
