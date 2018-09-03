@@ -9,14 +9,16 @@ git config --global user.name "name"
 #Actualisation du remote d'un fichier
 
 1. Toujours récupérer les sources sur le Remote  :
-   - `git clone` lienFourniParGitHub 
-   - `git pull` lienFourniParGitHub 
+   - `git clone https://lienFourniParGitHub`
+   - `git pull origin master` si le dossier existe déjà
    
 2. Faire les modifs en local
    - `git status` permet de voir si les fichiers sont prêts
+   **si rouge** faire un `git add` 
+   **si vert** passer au commit
    
 3. Ajouter au paquet : 
-   - `git add .` (pour ajouter tous les fichiers)
+   - `git add .` (. pour tous les fichiers sinon nom du fichier)
    
 4. Créer la version : 
    - `git commit -m "explication"`
