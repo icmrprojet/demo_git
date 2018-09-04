@@ -1,18 +1,19 @@
 # demo_git
-##Recap pour démarrer
+**Liste des commandes pour GITHUB**
+
 <a href="https://fayechartre6.000webhostapp.com/github/" target="_blank">
 <img src="https://user-images.githubusercontent.com/32952402/32414664-71da98a2-c22c-11e7-85c0-ff3faed54b68.jpg" width="200"></a>
 
-#Connecter le PC à Github
+# Connecter le PC à Github
 ```
 git config --global user.email "emailgithub@gmail"
 git config --global user.name "name"
 ```
-#Actualisation du remote d'un fichier
+# Actualisation du remote d'un fichier
 
 1. Toujours récupérer les sources sur le Remote  :
    - `git clone https://lienFourniParGitHub`
-   - `git pull origin master` si le dossier existe déjà
+   - `git pull origin master` si le dossier existe et est déjà partagé
    
 2. Faire les modifs en local
    - `git status` permet de voir si les fichiers sont prêts
@@ -29,7 +30,7 @@ git config --global user.name "name"
    - `git push origine master`
    
 
-#EX : Creation d'un fichier et synchronisation du remote
+# EX : Creation d'un fichier et synchronisation du remote
 
 1. Création du fichier via la console : `touch test.html`
 2. `ls` pour lister 
