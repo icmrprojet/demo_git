@@ -27,7 +27,7 @@ git config --global user.name "name"
    - `git commit -m "explication"`
    
 5. Pousser en ligne :
-   - `git push origine master`
+   - `git push origin master`
    
 
 # EX : Creation d'un fichier et synchronisation du remote
@@ -36,4 +36,4 @@ Pour activer un dossier comme repository Git se placer dans ce dossier avec le T
 2. `ls` pour lister 
 3. `git add .` pour l'ajouter
 4. `git commit -m "new file"`
-5. `git push origine master` pour l'envoyer sur Github
+5. `git push origin master` pour l'envoyer sur Github
