@@ -31,7 +31,7 @@ git config --global user.name "name"
    
 
 # EX : Creation d'un fichier et synchronisation du remote
-Pour activer un dossier comme repository Git, il suffit de se placer dans ce dossier avec le Terminal puis d'utiliser la commande `git init`. 
+Pour activer un dossier comme repository Git se placer dans ce dossier avec le Terminal et utiliser la commande `git init`. 
 1. Création du fichier via la console : `touch test.html`
 2. `ls` pour lister 
 3. `git add .` pour l'ajouter
